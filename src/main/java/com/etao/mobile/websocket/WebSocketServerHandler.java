@@ -84,7 +84,6 @@ public class WebSocketServerHandler extends SimpleChannelUpstreamHandler {
 
             res.setHeader(CONTENT_TYPE, "text/html; charset=UTF-8");
             setContentLength(res, content.readableBytes());
-
             res.setContent(content);
             sendHttpResponse(ctx, req, res);
             return;

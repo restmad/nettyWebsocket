@@ -9,7 +9,7 @@
          alert("WebSocket not supported by this browser");  
      };  
         
-    var websocket = new WebSocket("ws://127.0.0.1:9001/websocket");  
+    var websocket = new WebSocket("ws://127.0.0.1:9001/websocket");
      websocket.onmessage = function(evt){  
          var data = evt.data;  
           alert("received message: " + data);  

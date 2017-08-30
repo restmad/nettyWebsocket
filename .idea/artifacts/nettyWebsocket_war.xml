@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nettyWebsocket:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="nettyWebsocket.war">
+      <element id="artifact" artifact-name="nettyWebsocket:war exploded" />
+    </root>
+  </artifact>
+</component>
